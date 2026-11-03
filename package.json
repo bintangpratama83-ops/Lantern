@@ -1,0 +1,13 @@
+{
+  "name": "lantern",
+  "version": "0.1.0",
+  "description": "Lightweight roleplay chat frontend. Reads and writes SillyTavern file formats.",
+  "type": "module",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server/server.js",
+    "lan": "node server/server.js --lan"
+  }
+}
