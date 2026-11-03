@@ -1,6 +1,6 @@
 // Service worker: keeps the app shell available offline so Lantern reopens instantly.
 // API calls always go to the network. Thumbnails are cached (their URLs are versioned).
-const SHELL = 'lantern-shell-v1';
+const SHELL = 'lantern-shell-v2';
 const THUMBS = 'lantern-thumbs-v1';
 const CORE = ['/', '/index.html', '/css/app.css', '/js/app.js', '/js/lib/dom.js', '/js/lib/api.js', '/js/lib/state.js', '/js/lib/icons.js', '/js/lib/thumbs.js', '/js/ui/overlays.js', '/js/views/characters.js'];
 

@@ -62,3 +62,5 @@ Main use: immersive RP with heavy Chat Completion presets (Freaky Frankenstein 5
 - Prompt Manager (CC preset import with prompt_order, toggles, injection depth), regex engine (`data/regex.json` already imported), World Info, Author's Note, prompt inspector UI (`window.__lanternLastPrompt` holds the last prompt for now).
 - Per-message id uniquifying for HTML HUD checkbox/label toggles (same issue exists in ST).
 - Group chats copied on import but not shown yet.
+
+- 2026-11-03 — v0.1.1: NanoGPT model list returned only auto-model for Bintang; Lantern now merges NanoGPT all/personalized/subscription/paid lists, shows per-list counts, and uses a searchable picker instead of <datalist>.

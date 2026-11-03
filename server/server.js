@@ -12,7 +12,7 @@ import * as cfg from './lib/settings.js';
 import { generate, listModels } from './lib/proxy.js';
 import { scanSillyTavern, importSillyTavern } from './lib/importer.js';
 
-const VERSION = '0.1.0';
+const VERSION = '0.1.1';
 const WEB = path.join(ROOT, 'web');
 const CONFIG_FILE = path.join(ROOT, 'config.json');
 const config = { port: 8000, host: '127.0.0.1', password: '', allowPublicIPs: false, ...readJson(CONFIG_FILE, {}) };
