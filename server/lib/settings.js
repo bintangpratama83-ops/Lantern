@@ -12,10 +12,10 @@ const PERSONAS = () => path.join(DATA, 'personas.json');
 
 export const PROVIDERS = {
   openrouter: { label: 'OpenRouter', baseUrl: 'https://openrouter.ai/api/v1', needsKey: true },
-  nanogpt: { label: 'NanoGPT', baseUrl: 'https://nano-gpt.com/api/v1', needsKey: true },
+  nanogpt: { label: 'NanoGPT', baseUrl: 'https://api.nano-gpt.com/api/v1', needsKey: true },
   custom: { label: 'Custom (OpenAI-compatible)', baseUrl: '', needsKey: false },
   koboldcpp: { label: 'KoboldCpp', baseUrl: 'http://127.0.0.1:5001/v1', needsKey: false },
-  llamacpp: { label: 'llama.cpp server', baseUrl: 'http://127.0.0.1:8080/v1', needsKey: false },
+  llamacpp: { label: 'llama.cpp server', baseUrl: 'http://127.0.0.1:9931/v1', needsKey: false },
 };
 
 export const DEFAULT_SETTINGS = {

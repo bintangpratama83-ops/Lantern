@@ -64,3 +64,4 @@ Main use: immersive RP with heavy Chat Completion presets (Freaky Frankenstein 5
 - Group chats copied on import but not shown yet.
 
 - 2026-11-03 — v0.1.1: NanoGPT model list returned only auto-model for Bintang; Lantern now merges NanoGPT all/personalized/subscription/paid lists, shows per-list counts, and uses a searchable picker instead of <datalist>.
+- 2026-11-03 — v0.1.2: checked endpoints against official docs. NanoGPT chat now uses api.nano-gpt.com (docs recommend it for API-key chat; model lists stay on nano-gpt.com). llama.cpp default port 9931 per current server README. OpenRouter title header X-OpenRouter-Title. Real providers still untested from the workspace (blocked); mock-tested only.

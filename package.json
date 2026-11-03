@@ -1,6 +1,6 @@
 {
   "name": "lantern",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Lightweight roleplay chat frontend. Reads and writes SillyTavern file formats.",
   "type": "module",
   "private": true,

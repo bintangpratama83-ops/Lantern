@@ -97,7 +97,7 @@ export async function mount(main) {
     const body = el('div', { class: 'stack' },
       el('label', { class: 'field' }, el('span', { class: 'field-label' }, 'Provider'), type),
       el('label', { class: 'field' }, el('span', { class: 'field-label' }, 'Name'), name),
-      el('label', { class: 'field' }, el('span', { class: 'field-label' }, 'API URL'), url, el('span', { class: 'hint' }, 'KoboldCpp and llama.cpp: use their OpenAI-compatible /v1 address.')),
+      el('label', { class: 'field' }, el('span', { class: 'field-label' }, 'API URL'), url, el('span', { class: 'hint' }, 'KoboldCpp and llama.cpp: use the address they print when starting, ending in /v1.')),
       el('label', { class: 'field' }, el('span', { class: 'field-label' }, 'API key'), key),
       el('div', { class: 'field' }, el('span', { class: 'field-label' }, 'Model'), el('div', { class: 'row' }, model, loadBtn), pick, modelInfo),
       el('details', { class: 'more-fields' }, el('summary', {}, 'Advanced'), el('label', { class: 'field' }, el('span', { class: 'field-label' }, 'Extra headers'), headers)));
